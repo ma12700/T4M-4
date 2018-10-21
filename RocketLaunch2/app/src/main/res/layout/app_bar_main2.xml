@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:background="@drawable/main"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/ToolbarColoredBackArrow">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="@dimen/w"
+                android:layout_height="@dimen/w"
+                android:layout_gravity="end|top"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/question"
+                android:visibility="visible" />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/nasa_history_overview"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="@string/the_national_aeronautics_and_space_administration_nasa_is_responsible_for_unique_scientific_and_technological_achievements_in_human_spaceflight_aeronautics_space_science_and_space_applications_that_have_had_widespread_impacts_on_our_nation_and_the_world_forged_in_response_to_early_soviet_space_achievements_nasa_was_built_on_the_national_advisory_committee_for_aeronautics_naca_and_other_government_organizations_as_the_locus_of_u_s_civil_aerospace_research_and_development_when_nasa_opened_for_business_on_october_1_1958_it_accelerated_the_work_already_started_on_human_and_robotic_spaceflight_nasa_s_first_high_profile_program_was_project_mercury_an_effort_to_learn_if_humans_could_survive_in_space_this_was_followed_by_project_gemini_which_used_spacecraft_built_for_two_astronauts_to_perfect_the_capabilities_needed_for_the_national_objective_of_a_human_trip_to_the_moon_by_the_end_of_the_1960s_project_apollo_achieved_that_objective_in_july_1969_with_the_apollo_11_mission_and_expanded_on_it_with_five_more_successful_lunar_landing_missions_through_1972_after_the_skylab_and_apollo_soyuz_test_projects_of_the_mid_1970s_nasa_s_human_spaceflight_efforts_again_resumed_in_1981_with_the_space_shuttle_program_that_continued_for_30_years_the_shuttle_was_not_only_a_breakthrough_technology_but_was_essential_to_our_next_major_step_in_space_the_construction_of_the_international_space_station_over_the_last_60_years_nasa_has_continued_to_push_the_boundaries_with_cutting_edge_aeronautics_research_that_has_dramatically_changed_the_way_we_build_and_fly_airplanes_nasa_has_also_completed_the_reconnaissance_of_our_solar_system_with_intense_investigation_of_all_the_planets_using_orbital_spacecraft_like_the_hubble_space_telescope_nasa_has_also_dramatically_changed_our_understanding_of_the_universe_around_us_as_well_as_our_own_planet_nasa_s_early_work_on_launch_vehicles_communication_satellites_and_weather_satellites_has_fundamentally_changed_daily_life_and_created_whole_new_industries_as_a_catalyst_for_international_cooperation_nasa_has_also_changed_how_and_why_humanity_conducts_space_exploration_now_nasa_is_preparing_to_take_humankind_farther_than_ever_before_as_it_helps_to_foster_a_robust_commercial_space_economy_near_earth_and_pioneers_further_human_and_robotic_exploration_as_we_venture_into_deep_space_the_nasa_history_office_program_publishes_a_quarterly_newsletter_as_well_as_an_array_of_books_print_and_digital_hosts_social_media_provides_fellowships_and_runs_the_historical_reference_collection_our_version_of_an_archive_to_assist_the_public_in_finding_more_information_on_aeronautical_and_space_history_in_addition_the_staff_produces_the_aeronautics_and_space_report_of_the_president_the_national_aeronautics_and_space_act_of_1958_directs_nasa_to_produce_an_annual_report_that_includes_a_comprehensive_description_of_the_programmed_activities_and_the_accomplishments_of_all_agencies_of_the_united_states_in_the_field_of_aeronautics_and_space_activities_quot_during_the_preceding_year_our_staff_also_assists_the_public_media_researchers_nasa_employees_and_congressional_staff_to_find_resources_within_and_outside_the_nasa_history_office_s_historical_reference_collection" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

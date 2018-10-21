@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/newspaper"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/rocket"
+            android:title="@string/starting_schedules" />
+        <item
+            android:id="@+id/video"
+            android:icon="@drawable/video"
+            android:title="@string/videos" />
+        <item
+            android:id="@+id/port"
+            android:icon="@drawable/satellite"
+            android:title="@string/port" />
+        <item
+            android:id="@+id/locations"
+            android:icon="@drawable/placeholder"
+            android:title="@string/near_locations" />
+        <item
+            android:id="@+id/live"
+            android:icon="@drawable/icon"
+            android:title="@string/live" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/question"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/informations"
+            android:icon="@drawable/content"
+            android:title="@string/informations" />
+    </group>
+
+</menu>
